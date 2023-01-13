@@ -1,5 +1,7 @@
+import Layout from "components/Layout";
+
 const Blog = () => {
-  return <div>Blog page</div>;
+  return <Layout title="Blog">Blog page</Layout>;
 };
 
 export default Blog;
